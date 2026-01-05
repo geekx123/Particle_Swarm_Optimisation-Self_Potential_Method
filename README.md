@@ -35,7 +35,7 @@ This synthetic response is later compared with observed data.
 
 SP inversion is treated as a non-linear optimization problem, where the goal is to minimize a cost (loss) function defined as:
 
-#### Misfit Function:
+#### Misfit Function:
 Measures the difference between observed SP data and forward-modeled SP data (typically using RMSE or L2 norm).
 
 Due to the non-linearity and potential multi-modality of the solution space, classical gradient-based methods are often insufficient—motivating the use of PSO.
